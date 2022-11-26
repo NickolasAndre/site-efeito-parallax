@@ -16,7 +16,6 @@ h1, h2 {
 }
 
 p{
-    margin: auto;
     width: 70vw;
     text-align: justify;
 }
@@ -101,4 +100,10 @@ section.module.parallax h1{
     font-size: 78px;
     z-index: 80;
     text-transform: uppercase;
+}
+
+@media screen and (max-width:900px) {
+    p{
+        margin: auto;
+    }
 }

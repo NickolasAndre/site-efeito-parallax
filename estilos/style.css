@@ -1,16 +1,24 @@
 @charset "UTF-8";
 
-body{
+body, html{
     margin: 0%;
     padding: 0%;
     font-family: sans-serif;
     color: 242424;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 h1, h2 {
    font-weight: 900;
    color: black; 
+}
+
+p{
+    margin: auto;
+    width: 70vw;
+    text-align: justify;
 }
 .wrapper{
     width: 100%;

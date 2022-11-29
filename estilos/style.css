@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 body, html{
     margin: 0%;
     padding: 0%;
@@ -101,6 +106,25 @@ section.module.parallax h1{
     text-transform: uppercase;
 }
 
+footer p{
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+
+a{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(26, 138, 138);
+    text-decoration: underline;
+    cursor: pointer;
+}
 @media screen and (max-width:900px) {
     p{
         width: 70%;

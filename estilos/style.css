@@ -106,7 +106,7 @@ section.module.parallax h1{
     text-transform: uppercase;
 }
 
-footer p{
+footer p {
     font-size: 1.2em;
     font-weight: bolder;
     text-align: center;
@@ -114,6 +114,7 @@ footer p{
     color: white;
     padding-top: 10px;
 }
+
 
 a{
     color: aquamarine;
@@ -125,9 +126,15 @@ a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
+
+
 @media screen and (max-width:900px) {
     p{
         width: 70%;
         margin: 40px;
+       
     }
+
 }
+
